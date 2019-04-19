@@ -1,0 +1,283 @@
+.gespieltePositionen {
+
+}
+
+.gespieltePositionen .feld {
+    background: url('/images/spielfeld_klein.png');
+    width: 100%;
+    max-width: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:250px;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+
+.gespieltePositionen .feld span {
+    background-color: #fff;
+    height: 26px;
+    width: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 8px;
+    line-height: 26px;
+    cursor: pointer;
+    font-family: OSL;
+    text-align: center;
+    color:#fff;
+}
+
+.gespieltePositionen .feld .position_1 {
+    position:absolute;
+    top: 84%;
+    left: 45.5%;
+    right: 50%;
+}
+
+.gespieltePositionen .feld .position_2 {
+    position:absolute;
+    top: 75%;
+    left: 45.5%;
+}
+
+.gespieltePositionen .feld .position_3 {
+    position:absolute;
+    top: 68%;
+    left: 21%;
+    width: 180px;
+}
+
+.gespieltePositionen .feld .position_4 {
+    position:absolute;
+    top: 56%;
+    left: 5%;
+    height: 60px;
+    width: 40px;
+    line-height: 60px;
+}
+
+.gespieltePositionen .feld .position_5 {
+    position:absolute;
+    top: 56%;
+    right: 5%;
+    height: 60px;
+    width: 40px;
+    line-height: 60px;
+}
+
+.gespieltePositionen .feld .position_6 {
+    position:absolute;
+    top: 54%;
+    left: 26%;
+    width: 150px;
+}
+
+.gespieltePositionen .feld .position_7 {
+    position:absolute;
+    top: 41%;
+    left: 35.5%;
+    width: 90px;
+}
+
+.gespieltePositionen .feld .position_8 {
+    position:absolute;
+    top: 33%;
+    right: 7%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.gespieltePositionen .feld .position_9 {
+    position:absolute;
+    top: 33%;
+    left: 7%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.gespieltePositionen .feld .position_10 {
+    position:absolute;
+    top: 28%;
+    left: 26%;
+    width: 150px;
+}
+
+.gespieltePositionen .feld .position_11 {
+    position:absolute;
+    top: 10%;
+    left: 9%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.gespieltePositionen .feld .position_12 {
+    position:absolute;
+    top: 10%;
+    right: 9%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.gespieltePositionen .feld .position_13 {
+    position:absolute;
+    top: 15%;
+    left: 35.5%;
+    width: 90px;
+}
+
+.gespieltePositionen .feld .position_14 {
+    position:absolute;
+    top: 2%;
+    left: 26%;
+    width: 150px;
+}
+
+
+
+
+.gespieltePositionen .feld .positionsbox_1 {
+    position:absolute;
+    top: 84%;
+    left: 40.5%;
+}
+
+.gespieltePositionen .feld .positionsbox_2 {
+    position:absolute;
+    top: 75%;
+    left: 40.5%;
+}
+
+.gespieltePositionen .feld .positionsbox_3 {
+    position:absolute;
+    top: 68%;
+    left: 40.5%;
+}
+
+.gespieltePositionen .feld .positionsbox_4 {
+    position:absolute;
+    top: 56%;
+    left: 5%;
+}
+
+.gespieltePositionen .feld .positionsbox_5 {
+    position:absolute;
+    top: 56%;
+    right: 5%;
+}
+
+.gespieltePositionen .feld .positionsbox_6 {
+    position:absolute;
+    top: 53%;
+    left: 40.5%;
+}
+
+.gespieltePositionen .feld .positionsbox_7 {
+    position:absolute;
+    top: 40.5%;
+    left: 40.5%;
+}
+
+.gespieltePositionen .feld .positionsbox_8 {
+    position:absolute;
+    top: 33%;
+    right: 7%;
+}
+
+.gespieltePositionen .feld .positionsbox_9 {
+    position:absolute;
+    top: 33%;
+    left: 7%;
+}
+
+.gespieltePositionen .feld .positionsbox_10 {
+    position:absolute;
+    top: 25%;
+    left: 40.5%;
+}
+
+.gespieltePositionen .feld .positionsbox_11 {
+    position:absolute;
+    top: 8%;
+    left: 9%;
+}
+
+.gespieltePositionen .feld .positionsbox_12 {
+    position:absolute;
+    top: 8%;
+    right: 9%;
+}
+
+.gespieltePositionen .feld .positionsbox_13 {
+    position:absolute;
+    top: 12%;
+    left: 40.5%;
+}
+
+.gespieltePositionen .feld .positionsbox_14 {
+    position:absolute;
+    top: -12px;;
+    left: 40.5%;
+}
+
+
+.gespieltePositionen .feld .pos-box {
+    background-color: #fff;
+    width: 60px;
+    height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: OSL;
+    text-align: center;
+    color: #1375a3;
+    background-color: transparent;
+}
+
+
+div.aussen {
+    display: table-cell;
+    vertical-align: middle;
+    width:60px;
+    height:60px;
+}
+
+.gespieltePositionen .feld .text-box {
+    background-color: #fff;
+    display: block;
+    min-height: 15px;
+    min-width: 15px; 
+    max-height: 60px;
+    max-width: 60px; 
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #fff;
+}
+
+.pos-anzeige:hover .aussen .text-box {
+    display: none;
+    transition: opacity 300ms ease;
+    -moz-transition: opacity 300ms ease;
+    -webkit-transition: opacity 300ms ease;
+    -o-transition: opacity 300ms ease;
+}
+
+.zusatz-kreis {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    height: 17px;
+    width: 17px;
+    background-color: #00aded;
+    border-radius: 17px;
+    line-height: 17px;
+    color: #fff;
+    font-family: OSL;
+    display: none;
+}
