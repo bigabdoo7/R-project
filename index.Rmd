@@ -72,5 +72,5 @@ p<- data%>%
   summarise(goals = sum(number.of.goals))%>%
   treemap(index =c("compitition", "for."),
           vSize = "goals", type = "index", draw = FALSE);
-d3tree3(p, rootname = "Goals per compitition & team")
+d3tree3(p, rootname = "Goals per competition & team")
 ```
